@@ -3,37 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Web</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Mi Biografía</title>
+  <style>
+        /* Estilos generales */
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+        background-color: #ce12b5;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+        }
+
+        /* Estilos para el contenedor principal */
+        .container {
+            background-color: #33b419; /* Cambia este color al que prefieras */
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilos para los títulos de sección */
+        h2 {
+        color: #333;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        }
+
+        /* Estilos para el texto de párrafo */
+        p {
+            line-height: 1.6;
+             margin-bottom: 20px;
+             border-radius: 10px; /* Ajusta este valor según lo redondeados que desees los bordes */
+             padding: 10px; /* Agrega un poco de espacio interno para mejorar la apariencia */
+        }
+
+        /* Estilos para el enlace de contacto */
+        .contact-link {
+        color: #007bff;
+        text-decoration: none;
+        }
+
+        .contact-link:hover {
+        text-decoration: underline;
+        }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Mi Página Web</h1>
+    <h1>Mi Nombre</h1>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-  <main>
-    <section>
-      <h2>Acerca de Nosotros</h2>
-      <p>Somos una empresa dedicada a...</p>
-    </section>
-    <section>
-      <h2>Nuestros Servicios</h2>
-      <ul>
-        <li>Servicio 1</li>
-        <li>Servicio 2</li>
-        <li>Servicio 3</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
-  </footer>
+  <div class="container">
+    <h2>Sobre Mí</h2>
+    <p>¡Hola! Soy [Tu Nombre], y me encanta [alguna descripción breve sobre ti]. En mi tiempo libre, disfruto [tus pasatiempos o intereses].</p>
+    <h2>Biografía</h2>
+    <p>Nací en [tu lugar de nacimiento] y crecí en [tu lugar de crianza]. Desde joven, tuve un interés en [algo que te apasiona o te define]. A lo largo de los años, he tenido la oportunidad de [algunos hitos o experiencias importantes en tu vida].</p>
+    <h2>Contacto</h2>
+    <p>Puedes contactarme en [tu dirección de correo electrónico] si deseas saber más sobre mí o simplemente charlar. ¡Espero escuchar de ti!</p>
+  </div>
 </body>
 </html>
